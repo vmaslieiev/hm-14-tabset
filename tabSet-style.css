@@ -1,0 +1,28 @@
+.wrap .tabset-title{
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.wrap .tabset-content{
+  display: none;
+  border: 1px solid black;
+  background-color: burlywood;
+  padding: 5px;
+}
+
+.wrap .active .tabset-content{
+  display: block;
+}
+
+.wrap .active .tabset-title{
+  background-color: aquamarine;
+}
+
+.wrap{
+  display: flex;
+  margin: 0 auto;
+  width: 600px;
+  justify-content: space-around;
+}
